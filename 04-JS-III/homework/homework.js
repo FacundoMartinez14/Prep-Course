@@ -230,7 +230,6 @@ function breakStatement(numero) {
         break;
       }
     }
-    console.log(newarr);
     if(newarr.length == 10){
       return newarr;
     }else{
