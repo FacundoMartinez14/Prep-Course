@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+.firstDiv{
+    height: auto;
+    width: 30%;
+    background-color: #566573;
+    color: #FADBD8;
+    margin-top: 0;
+    margin-left: 0;
+}
+.firstDiv > h3, p{
+    margin-left: 50px;
+    line-height: 1.75;
+}
+h3{
+    text-transform: uppercase;
+}
+h1{
+    text-align: center;
+    text-decoration: underline ;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.secondDiv{
+    background-color: #FAD7A0;
+    margin-left: 50px;
+    padding: 10px;
+}
+ul{
+    margin-left: 60px;
+}
+ul > li{
+    padding: 5px;
+}
+.institucion{
+    color: #AEB6BF;
+}
+strong{
+    margin-left: 50px;
+}
